@@ -9,8 +9,24 @@ Welcome to your new app.
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 
-<Modal Title="My first Modal dialog" Show="true">
+<Modal Title="My first Modal dialog" Show="@showModal" OnCancel="CloseModal" OnConfirm="CloseModal">
  <p>
    This is my first modal dialog
  </p>
 </Modal>
+
+<button @onclick="ShowModal">Show Modal</button>
+
+@code{
+    private bool showModal = false;
+
+    private void ShowModal()
+    {
+        this.showModal = true;
+    }
+
+    private void CloseModal()
+    {
+        this.showModal = false;
+    }
+}
