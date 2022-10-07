@@ -4,6 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Learn.MyFirstLibrary</PackageId>
+    <Version>0.1.0-alpha1</Version>
+    <Authors>Jaime Batista</Authors>
+    <Company>AdventureWorks</Company>
+    <Description>Test project blazor class library</Description>
+    <Copyright>Test copyright text</Copyright>
   </PropertyGroup>
 
 
