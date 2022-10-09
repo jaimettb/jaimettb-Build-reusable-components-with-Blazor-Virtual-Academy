@@ -4,6 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>My.FirstClassLibrary</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Jaime</Authors>
+    <Company>NPS</Company>
+    <Description>This is a Razor component library with a cool modal window component.</Description>
+    <Copyright>Test copyright text</Copyright>
   </PropertyGroup>
 
 

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FirstRazorLabriry\FirstRazorLabriry.csproj" />
+    <PackageReference Include="My.FirstClassLibrary" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
